@@ -8,13 +8,7 @@ services:
 
 
 
-  offre_emploi-ms:
-    build: ../../offre_emploi-MS
-    environment:
-      - eureka.client.serviceUrl.defaultZone=http://discovery:8761/eureka/
-    ports:
-      - "8880:8880"
-    image: offre_emploi-service
+  
 
   conges-service:
     build: ../../Conges-MS
